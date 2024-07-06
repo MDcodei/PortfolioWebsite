@@ -2,8 +2,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
-import Header from './components/Header';
 import Home from './components/Home';
+import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
@@ -23,7 +23,7 @@ const Content = styled.main`
 `;
 
 const App = () => (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <AppContainer>
       <Header />
       <Content>
