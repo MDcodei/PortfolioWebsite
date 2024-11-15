@@ -152,8 +152,9 @@ const RelevantCoursework = ({ onClose }) => {
         CSCI 2670: Introduction to Theory of Computing<br /><br />
         CSCI 2720: Data Structures<br /><br />
         CSCI 3030: Computing, Ethics and Society<br /><br />
-        CSCI 4720: Computer Architecture and Organization<br /><br />
-        CSCI 4800: Human-Computer Interaction<br /><br /></p>}
+        CSCI 4800: Human-Computer Interaction<br /><br />
+        CSCI 4370: Database Management<br /><br />
+        CSCI 4300: Web Programming<br /><br /></p>}
       </ModalContent>
     </ModalBackground>
   );
