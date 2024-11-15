@@ -31,12 +31,6 @@ const Projects = () => (
   <ProjectsSection>
     <ProjectsWrapper>
       <ProjectCard 
-        title="MunchFlix" 
-        description="A Movie Theatre Snack (Mobile) App" 
-        type="|Prototype|"  
-        view="https://muktadeshmukh.my.canva.site/munchflix"
-      />
-      <ProjectCard 
         title="Envi" 
         description="A Carbon Footprint Tracking (Web) App"
         type="|Prototype|"
@@ -53,6 +47,12 @@ const Projects = () => (
         description="A Productivity (Web) App"
         type="|Web Application|"
         view="https://muktadeshmukh.my.canva.site/study-mode-project" 
+      />
+      <ProjectCard 
+        title="BiteMap" 
+        description="A 'Find Restaurant's near me' (Web) App"
+        type="|Web Application|"
+        view="https://muktadeshmukh.my.canva.site/bitemap-project" 
       />
 
             
