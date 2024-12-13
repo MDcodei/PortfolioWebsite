@@ -54,9 +54,6 @@ const Projects = () => (
         type="|Web Application|"
         view="https://muktadeshmukh.my.canva.site/bitemap-project" 
       />
-
-            
-      {/* Add more ProjectCard components as needed */}
     </ProjectsWrapper>
   </ProjectsSection>
 );
