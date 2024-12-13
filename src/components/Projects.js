@@ -43,10 +43,10 @@ const Projects = () => (
         view="https://muktadeshmukh.my.canva.site/matchbox-project" 
       />
       <ProjectCard 
-        title="StudyMode" 
-        description="A Productivity (Web) App"
-        type="|Web Application|"
-        view="https://muktadeshmukh.my.canva.site/study-mode-project" 
+        title="MunchFlix" 
+        description="A Snack Ordering (Mobile) App"
+        type="|Prototyope + Web Application|"
+        view="https://muktadeshmukh.my.canva.site/munchflix-project" 
       />
       <ProjectCard 
         title="BiteMap" 

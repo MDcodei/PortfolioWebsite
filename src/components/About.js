@@ -210,9 +210,11 @@ const About = () => {
             <div>Java</div>
             <div>Python</div>
             <div>C</div>
+            <div>MongoDB</div>
           </Column>
           <Column>
             <div>React.js</div>
+            <div>Node.js</div>
             <div>HTML/CSS</div>
             <div>Figma</div>
           </Column>
