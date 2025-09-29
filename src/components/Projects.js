@@ -31,10 +31,28 @@ const Projects = () => (
   <ProjectsSection>
     <ProjectsWrapper>
       <ProjectCard 
-        title="Envi" 
-        description="A Carbon Footprint Tracking (Web) App"
-        type="|Prototype|"
-        view="https://muktadeshmukh.my.canva.site/envi" 
+        title="Cinema-eBooking" 
+        description="A Cinema-eBooking (Web) App"
+        type="|Web Application|"
+        view="" 
+      />
+      <ProjectCard 
+        title="AI Water Externality" 
+        description="AI Water Usage Monitoring Extension"
+        type="|Chrome Extension|"
+        view="https://github.com/vennreddy490/AI_Water_Externality_Lab.git" 
+      />
+      <ProjectCard 
+        title="SkyDeals" 
+        description="An Airline Ticketing (Web) App"
+        type="|Web Application|"
+        view="https://github.com/sanslab22/Term-Project.git" 
+      />
+      <ProjectCard 
+        title="BiteMap" 
+        description="A 'Find Restaurant's near me' (Web) App"
+        type="|Web Application|"
+        view="https://muktadeshmukh.my.canva.site/bitemap-project" 
       />
       <ProjectCard 
         title="Matchbox" 
@@ -43,17 +61,20 @@ const Projects = () => (
         view="https://muktadeshmukh.my.canva.site/matchbox-project" 
       />
       <ProjectCard 
-        title="MunchFlix" 
-        description="A Snack Ordering (Mobile) App"
-        type="|Prototyope + Web Application|"
-        view="https://muktadeshmukh.my.canva.site/munchflix-project" 
+        title="Envi" 
+        description="A Carbon Footprint Tracking (Web) App"
+        type="|Prototype|"
+        view="https://muktadeshmukh.my.canva.site/envi" 
       />
       <ProjectCard 
-        title="BiteMap" 
-        description="A 'Find Restaurant's near me' (Web) App"
-        type="|Web Application|"
-        view="https://muktadeshmukh.my.canva.site/bitemap-project" 
+        title="MunchFlix" 
+        description="A Snack Ordering (Mobile) App"
+        type="|Prototyope|"
+        view="https://muktadeshmukh.my.canva.site/munchflix-project" 
       />
+      
+      
+      
     </ProjectsWrapper>
   </ProjectsSection>
 );

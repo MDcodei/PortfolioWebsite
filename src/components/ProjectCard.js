@@ -42,12 +42,28 @@ const ViewButton = styled.a`
   }
 `;
 
+const Status = styled.span`
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #a86d00ff; /* orange for "in progress" */
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+`;
+
+
 const ProjectCard = ({ title, description, type, view }) => (
   <Card>
     <h3>{title}</h3>
     <Description1>{description}</Description1>
     <Description2>{type}</Description2>
-    <ViewButton href={view} target="_blank" rel="noopener noreferrer">View</ViewButton>
+    {view ? (
+      <ViewButton href={view} target="_blank" rel="noopener noreferrer">
+        View
+      </ViewButton>
+    ) : (
+      <Status>In Progress</Status>
+    )}
   </Card>
 );
 

@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+
 const AppContainer = styled.div`
   display: flex;
   flex-direction: column;
