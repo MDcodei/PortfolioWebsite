@@ -257,7 +257,7 @@ const About = () => {
             Relevant Coursework
           </RelevantCourseworkButton>
           
-          <DownloadButton href="/resume.pdf" download>
+          <DownloadButton href="./resume.pdf" download>
             Download Resume (PDF)
           </DownloadButton>
 
